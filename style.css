@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #1F2937;
+    padding: 1em 13em;
+}
+
+/* Nav*/
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-decoration: underline;
+    display: flex;
+    gap: 2.5em;
+    color: #E5E7EB;
+    cursor: pointer;
+}
+
+.secondary,
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* Welcome part */
+.welcome {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #649fff;
+    color: white;
+}
+
+.welcome button {
+    border: none;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin-right: 20%;
+}
+
+.front-endimg {
+    width: 320px;
+    height: 320px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.front-endimg:hover {
+    width: 360px;
+    height: 360px;
+}
+
+/* Box section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 14em;
+    margin-top: 3em;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 0 7rem 0;
+    gap: 33.5px;
+}
+
+.box {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    color: #1f2937;
+}
+
+.htmlimg {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    width: 190px;
+    height: 190px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.htmlimg:hover {
+    width: 240px;
+    height: 240px;
+}
+
+.cssimg {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    width: 190px;
+    height: 190px;
+    transition: 0.5s;
+    cursor: pointer;  
+}
+
+.cssimg:hover {
+    width: 240px;
+    height: 240px;
+}
+
+.jsimg {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    width: 190px;
+    height: 190px;
+    transition: 0.5s;
+    cursor: pointer; 
+}
+
+.jsimg:hover {
+    width: 240px;
+    height: 240px;
+}
+
+.coffeeimg {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    width: 190px;
+    height: 190px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.coffeeimg:hover {
+    width: 240px;
+    height: 240px;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+/* Sign Up */
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
